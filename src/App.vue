@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <comparator/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Comparator from './view/Comparator.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Comparator
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #7d7d7d;
 }
 </style>
